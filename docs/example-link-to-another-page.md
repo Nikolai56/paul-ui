@@ -1,4 +1,4 @@
-# Component-storybook
+# Paul-ui
 
 <img src="./images/super-go-team.logo.png" alt="Super GO Team" width="250"/>
 

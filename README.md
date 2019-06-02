@@ -1,7 +1,5 @@
-# Component-storybook
-> Based off of [styled-bootstrap](https://github.com/xDae/styled-bootstrap) component-storybook is the Super GO Team component libaray with linting, theming, react-storybook documentation and general company guide lines for component development.
-
-<img src="https://gitlab.com/supergoteam/component-storybook/raw/master/docs/images/super-go-team.logo.png" alt="Super GO Team" width="250"/>
+# Paul-ui
+> Based off of [styled-bootstrap](https://github.com/xDae/styled-bootstrap) paul-ui is the Super GO Team component libaray with linting, theming, react-storybook documentation and general company guide lines for component development.
 
 ## Table of Contents
 
@@ -33,8 +31,8 @@ For the pleasure of everyone and the sainity of the maintainers we use the follo
 Git it, install it, run it. Simply run the following command and you are off ready to roll with the complete storybook.
 
 ```
-git clone https://gitlab.com/supergoteam/component-storybook.git;
-cd component-storybook;
+git clone https://github.com/Nikolai56/paul-ui;
+cd paul-ui;
 npm install;
 npm start;
 ```
@@ -48,12 +46,12 @@ To use in your project include it in your package.json then simple import and us
 
 *Install package*
 ```
-npm i component-storybook;
+npm i paul-ui;
 ```
 
 *Include a component*
 ```
-import { Button } from "component-storybook"
+import { Button } from "paul-ui"
 ...
 
 <Button>I'm a button</Button>

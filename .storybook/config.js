@@ -17,8 +17,8 @@ addDecorator(story => {
 });
 
 setOptions({
-  name: "component-storybook",
-  url: "https://gitlab.com/supergoteam/component-storybook",
+  name: "paul-ui",
+  url: "https://github.com/Nikolai56/paul-ui",
 });
 
 const req = require.context("../src/", true, /.story.js$/);
