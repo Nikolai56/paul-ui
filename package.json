@@ -145,9 +145,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "workspaces": [
-    "components/*",
-    "utils"
-  ]
+  }
 }
