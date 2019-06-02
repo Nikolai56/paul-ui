@@ -1,7 +1,7 @@
 {
   "name": "paul-ui",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
   "description": "Configurable, themeable components that are documented with storybook, tested and covered with jest and formatted with love using prettier. Providing a easily extendable library of reusable components for anyone to use.",
   "homepage": "https://github.com/Nikolai56/paul-ui#readme",
   "bugs": {
@@ -28,7 +28,7 @@
     "clean": "rimraf lib && rimraf dist",
     "lint:css": "stylelint './src/components/**/*.js'",
     "prepublishOnly": "npm run build",
-    "start": "npm run storybook",
+    "dev": "npm run storybook",
     "storybook": "start-storybook -p 9009",
     "test": "react-scripts test --env=jsdom",
     "test:coverage": "react-scripts test --env=jsdom --coverage",
@@ -145,5 +145,9 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "workspaces": [
+    "components/*",
+    "utils"
+  ]
 }
