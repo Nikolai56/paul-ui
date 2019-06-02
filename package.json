@@ -1,6 +1,6 @@
 {
   "name": "paul-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Configurable, themeable components that are documented with storybook, tested and covered with jest and formatted with love using prettier. Providing a easily extendable library of reusable components for anyone to use.",
   "homepage": "https://github.com/Nikolai56/paul-ui#readme",
@@ -40,9 +40,9 @@
     "lodash.omit": "^4.5.0",
     "prop-types": "^15.7.2",
     "react-transition-group": "^2.6.0",
+    "styled-components": "4.1.3",
     "styled-grid-responsive": "^2.2.0",
-    "styled-media-responsive": "^1.0.9",
-    "styled-components": "4.1.3"
+    "styled-media-responsive": "^1.0.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
