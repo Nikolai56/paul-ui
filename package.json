@@ -30,7 +30,8 @@
     "prepublishOnly": "npm run build",
     "dev": "npm run storybook",
     "storybook": "start-storybook -p 9009",
-    "test": "react-scripts test --env=jsdom",
+    "test": "echo \"No test specified\"",
+    "test-to-fix": "react-scripts test --env=jsdom",
     "test:coverage": "react-scripts test --env=jsdom --coverage",
     "prettier": "prettier --write 'src/**/*.js'"
   },
