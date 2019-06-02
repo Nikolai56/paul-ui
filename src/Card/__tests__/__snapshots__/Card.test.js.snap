@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card with Header 1`] = `
+<div
+  className="sc-bdVaJa cpBMhQ"
+/>
+`;
+
+exports[`Card with Header 2`] = `
+<div
+  className="sc-htpNat dvvGAg"
+/>
+`;
+
+exports[`With Image 1`] = `
+<img
+  className="sc-ifAKCX iSwMuJ"
+/>
+`;
+
+exports[`With Image position bottom 1`] = `
+<img
+  className="sc-ifAKCX gTiwhe"
+/>
+`;
+
+exports[`create card 1`] = `
+<div
+  className="sc-bxivhb bLohfb"
+/>
+`;

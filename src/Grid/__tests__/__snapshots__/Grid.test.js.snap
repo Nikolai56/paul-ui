@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Default Grid 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Create Default Grid with default theme 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Create Default Grid with getGridVerticalRules 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Grid bottom 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+.c0 > * {
+  vertical-align: bottom;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Grid item 1`] = `
+.c0 {
+  width: NaN%;
+}
+
+@media (max-width:48em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media (max-width:72.5em) and (min-width:48em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+  media={
+    Object {
+      "phone": 1,
+      "tablet": 1,
+    }
+  }
+/>
+`;
+
+exports[`Grid item 2 1`] = `
+.c0 {
+  width: 25%;
+}
+
+@media (max-width:48em) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media (max-width:72.5em) and (min-width:48em) {
+  .c0 {
+    width: 50%;
+  }
+}
+
+<div
+  className="c0"
+  media={
+    Object {
+      "phone": 1,
+      "tablet": 0.5,
+    }
+  }
+/>
+`;
+
+exports[`Grid item debug 1`] = `
+.c0 {
+  background-color: rgba(192,192,192,0.17775145431929396);
+  width: NaN%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Grid with props 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: 0px;
+  direction: rtl;
+  text-align: left;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 0px;
+}
+
+.c0 > * {
+  direction: ltr;
+  text-align: left;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Middle Center Grid 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+  text-align: center;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+.c0 > * {
+  vertical-align: middle;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,16 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/styled-components/*
+<PROJECT_ROOT>/node_modules/polished/*
+<PROJECT_ROOT>/node_modules/*
+<PROJECT_ROOT>/lib/*
+
+[include]
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+include_warnings=true
+suppress_comment= \\(.\\|\n\\)*\\$FlowIssue
