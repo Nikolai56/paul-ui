@@ -54,7 +54,7 @@ export const colors = {
   grayDark: gray800,
 };
 
-export const primary: string = "#7624e6";
+export const primary: string = "#295641";
 export const secondary: string = "#a59595";
 export const success: string = "#19f494";
 export const info: string = "#4d43cd";
